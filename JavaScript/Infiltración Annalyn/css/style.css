@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 20px;
+}
+
+body {
+  background-color: #b1d7df;
+  text-align: center;
+  font-family: Corben;
+  margin-top: 10px;
+  align-items: center;
+}
+
+h1 {
+  color: #015869;
+  font-family: Corben;
+  font-size: 50px;
+}
+
+button {
+  padding: 10px;
+  border: 2px solid #5a5a5a;
+  background-color: #015869;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: orangered;
+  transform: scale(1.2);
+}
+
+.check {
+  width: 15px;
+  height: 15px;
+}
+
+#tx-resultado {
+  background-color: #015869;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  height: 10%;
+  margin-left: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */

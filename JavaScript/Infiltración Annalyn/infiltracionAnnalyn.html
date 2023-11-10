@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="./JavaScript/infiltracionAnnalyn.js" defer></script>
+    <title>Exercism</title>
+</head>
+<body>
+    <h1>Infiltración de Annalyn</h1>
+    
+    <img src="src/Imagen.png" alt="10px"><br>
+    
+    <input type="checkbox" class="check" id="caballeroEstaDespierto"><label for="caballeroEstaDespierto"> Caballero Esta Despierto</label><br>
+    <input type="checkbox" class="check" id="arqueroEstaDespierto"><label for="arqueroEstaDespierto"> Arquero Esta Despierto</label><br>
+    <input type="checkbox" class="check" id="prisioneroEstaDespierto"><label for="prisioneroEstaDespierto"> Prisionera Esta Despierta</label><br>
+    <input type="checkbox" class="check" id="mascotaPresente"><label for="mascotaPresente"> Mascota Esta Presente</label><br>
+    
+    <button onclick="ataqueRapido()" id="btn-ataqueRapido">Ataque Rapido</button>
+    <button onclick="espiar()"id="btn-espiar">Espiar</button>
+    <button onclick="señalarPrisionero()"id="btn-señalarPrisionero">Señalar Prisionero</button>
+    <button onclick="liberarPrisionero()"id="btn-liberarPrisionero">Liberar Prisionero</button><br>
+    
+    <div id="tx-resultado" readonly></div>
+</body>
+</html>

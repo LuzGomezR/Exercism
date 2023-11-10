@@ -1,0 +1,33 @@
+@use "variables" as v;
+@use "text" as t;
+
+button {
+    padding: 10px;
+    border: v.$borde;
+    background-color: v.$color-p;
+    color: v.$text-color;
+    border-radius: v.$radius;
+    margin: v.$margen;
+    font-size: 20px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: orangered;
+    transform: scale(1.20);
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+}
+#tx-resultado {
+    background-color: v.$color-p;
+    border-radius: v.$radius;
+    color: v.$text-color;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+}

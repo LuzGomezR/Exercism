@@ -1,0 +1,16 @@
+ @use "variables" as v;
+ @use "text" as t;
+
+ body {
+    background-color: v.$bg-colour;
+    text-align: center;
+    font-family: t.$familyText;
+    margin-top: 10px;
+    align-items: center;
+ }
+ h1{
+    color: v.$color-p;
+    font-family: t.$familyText;
+    font-size: 50px;
+ }
+
